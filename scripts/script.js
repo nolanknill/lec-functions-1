@@ -1,29 +1,25 @@
-// // alert("Hello World");
+let returnValueOfNumber = Number("7");
 
-// let returnValueOfNumber = Number("7");
+let returnValueOfConsoleLog = console.log(returnValueOfNumber);
 
-// let returnValueOfConsoleLog = console.log(returnValueOfNumber);
+console.log(returnValueOfConsoleLog);
 
-// console.log(returnValueOfConsoleLog);
-
-// let returnValueOfMathRandom = Math.random();
-// console.log(returnValueOfMathRandom);
+let returnValueOfMathRandom = Math.random();
+console.log(returnValueOfMathRandom);
 
 function output(string1) {
-    alert(string1);
+    console.warning(string1);
 }
 
-
-// output("Great Answer");
-// output("Jimmy is two");
-// output("Spike is older than that");
+output("Great Answer");
+output("Jimmy is two");
+output("Spike is older than that");
 
 
 
 // Let's create a function that gives us a random number
 // What's the range of the random numbers
 // What type of number? Do we want to include decimals?
-
 
 // What does the function do? Generate a random number
 // Input? Range of numbers: (max)
@@ -44,11 +40,6 @@ function generateRandomNumber(min, max) {
 }
 
 console.log("Generated random number: ", generateRandomNumber(99, 100));
-
-
-
-
-
 
 /*
     Parameters:
@@ -93,9 +84,6 @@ function wardrobePicker(temperature, cleanClothes = []) {
 
     return wardrobe;
 }
-
-
-
 
 
 
